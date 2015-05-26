@@ -1,0 +1,15 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch gh-pages
+# Your branch is up-to-date with 'origin/gh-pages'.
+#
+# Changes to be committed:
+#	new file:   "2015/05/15/javascript-\344\275\234\347\224\250\345\237\237\351\223\276\343\200\201\351\227\255\345\214\205\344\270\216\346\236\204\351\200\240\347\232\204\350\201\224\347\263\273/index.html"
+#	new file:   archives/2015/05/index.html
+#	modified:   archives/2015/index.html
+#	modified:   archives/index.html
+#	modified:   index.html
+#
+
