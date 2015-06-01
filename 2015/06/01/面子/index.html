@@ -3,38 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>javascript-作用域链、闭包与构造的联系 | Hexo</title>
+  <title>面子 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="“javascript语言的作用域由自其定义的位置确定。”
-“对函数构造将会创建新的作用域。”
-“javascript语言结构上是一个广义上的闭包系统。”
-这三句是转述的，其中第一句为基础，出自《javascript权威指南》，这句在一般环境中基于作用域的概念。
-
-方法（函数，以下同）定义在全局当中，其作用域就基于全局；
-变量定义在方法内部，其作用域就基于方法，即在方法内有效；
-b方法定义在a方法">
+  <meta name="description" content="跑步半路上遇到一对吵架，女的说：你把我朋友xx的朋友气跑了，我这么要面子的人，blabla…然后开始歇斯底里。
+我一直觉得面子不面子对我来说是件可以忽略的事，面子对我的作用只在一个时间起效：当我觉得自己疏忽做得不够好的时候。其余时间每当想起这俩字时候我都不屑一顾。这俩字委实给我们的生活设置了诸多的障碍，并实际上使得错与对不再是生活中评价的唯一标准。我遇到上面这种人，多半有多远跑多远，因为完全不期待">
 <meta property="og:type" content="article">
-<meta property="og:title" content="javascript-作用域链、闭包与构造的联系">
-<meta property="og:url" content="http://yoursite.com/2015/05/15/javascript-作用域链、闭包与构造的联系/index.html">
+<meta property="og:title" content="面子">
+<meta property="og:url" content="http://yoursite.com/2015/06/01/面子/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="“javascript语言的作用域由自其定义的位置确定。”
-“对函数构造将会创建新的作用域。”
-“javascript语言结构上是一个广义上的闭包系统。”
-这三句是转述的，其中第一句为基础，出自《javascript权威指南》，这句在一般环境中基于作用域的概念。
-
-方法（函数，以下同）定义在全局当中，其作用域就基于全局；
-变量定义在方法内部，其作用域就基于方法，即在方法内有效；
-b方法定义在a方法">
+<meta property="og:description" content="跑步半路上遇到一对吵架，女的说：你把我朋友xx的朋友气跑了，我这么要面子的人，blabla…然后开始歇斯底里。
+我一直觉得面子不面子对我来说是件可以忽略的事，面子对我的作用只在一个时间起效：当我觉得自己疏忽做得不够好的时候。其余时间每当想起这俩字时候我都不屑一顾。这俩字委实给我们的生活设置了诸多的障碍，并实际上使得错与对不再是生活中评价的唯一标准。我遇到上面这种人，多半有多远跑多远，因为完全不期待">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="javascript-作用域链、闭包与构造的联系">
-<meta name="twitter:description" content="“javascript语言的作用域由自其定义的位置确定。”
-“对函数构造将会创建新的作用域。”
-“javascript语言结构上是一个广义上的闭包系统。”
-这三句是转述的，其中第一句为基础，出自《javascript权威指南》，这句在一般环境中基于作用域的概念。
-
-方法（函数，以下同）定义在全局当中，其作用域就基于全局；
-变量定义在方法内部，其作用域就基于方法，即在方法内有效；
-b方法定义在a方法">
+<meta name="twitter:title" content="面子">
+<meta name="twitter:description" content="跑步半路上遇到一对吵架，女的说：你把我朋友xx的朋友气跑了，我这么要面子的人，blabla…然后开始歇斯底里。
+我一直觉得面子不面子对我来说是件可以忽略的事，面子对我的作用只在一个时间起效：当我觉得自己疏忽做得不够好的时候。其余时间每当想起这俩字时候我都不屑一顾。这俩字委实给我们的生活设置了诸多的障碍，并实际上使得错与对不再是生活中评价的唯一标准。我遇到上面这种人，多半有多远跑多远，因为完全不期待">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -80,10 +62,10 @@ b方法定义在a方法">
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-javascript-作用域链、闭包与构造的联系" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-面子" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2015/05/15/javascript-作用域链、闭包与构造的联系/" class="article-date">
-  <time datetime="2015-05-15T13:43:50.000Z" itemprop="datePublished">2015-05-15</time>
+    <a href="/2015/06/01/面子/" class="article-date">
+  <time datetime="2015-06-01T13:31:07.000Z" itemprop="datePublished">2015-06-01</time>
 </a>
     
   </div>
@@ -94,7 +76,7 @@ b方法定义在a方法">
         
   
     <h1 class="article-title" itemprop="name">
-      javascript-作用域链、闭包与构造的联系
+      面子
     </h1>
   
 
@@ -102,26 +84,14 @@ b方法定义在a方法">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<p>“javascript语言的作用域由自其定义的位置确定。”</p>
-<p>“对函数构造将会创建新的作用域。”</p>
-<p>“javascript语言结构上是一个广义上的闭包系统。”</p>
-<p>这三句是转述的，其中第一句为基础，出自《javascript权威指南》，这句在一般环境中基于作用域的概念。</p>
-<ul>
-<li>方法（函数，以下同）定义在全局当中，其作用域就基于全局；</li>
-<li>变量定义在方法内部，其作用域就基于方法，即在方法内有效；</li>
-<li>b方法定义在a方法内，b方法的作用域就存在于a中；</li>
-<li>在方法内部有一种方式可以将方法内的变量返回至全局中，即return；</li>
-<li>当return的对象为b方法时，由于b方法的作用域由定义位置确定，所以在调用return的方法时，b会携带其内的值出来；</li>
-<li>对前一句的另一种解释：方法会在其定义的位置和调用的位置之间建立起作用域链（全局方法作用域链为全局，或称宿主对象）；</li>
-<li>第三种说法是：定义的方法掉其被调用前其作用域内的值不会被释放掉。</li>
-</ul>
-<h2 id="构造函数会创建新的作用域，因此：">构造函数会创建新的作用域，因此：</h2><p>return function(){}与return new function(){}其作用域是不同的。这一方式在jquery源码中被用于隔离作用域，避免当前的this指向上一个输入的元素对象（或对象组）。</p>
+        <p>跑步半路上遇到一对吵架，女的说：你把我朋友xx的朋友气跑了，我这么要面子的人，blabla…然后开始歇斯底里。</p>
+<p>我一直觉得面子不面子对我来说是件可以忽略的事，面子对我的作用只在一个时间起效：当我觉得自己疏忽做得不够好的时候。其余时间每当想起这俩字时候我都不屑一顾。这俩字委实给我们的生活设置了诸多的障碍，并实际上使得错与对不再是生活中评价的唯一标准。我遇到上面这种人，多半有多远跑多远，因为完全不期待这样之后的生活。</p>
+<p>《局外人》中说（转述）：<strong>我发誓永不为另外一个人而活也不让任何一个人为我而活</strong>。<br>“<strong>生活永不在别处，而在此时此刻此地</strong>”。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/05/15/javascript-作用域链、闭包与构造的联系/" data-id="ciadyk2ag000714glh8hyvz97" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/06/01/面子/" data-id="ciadyk23u000114glkcykeor8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -130,19 +100,10 @@ b方法定义在a方法">
     
 <nav id="article-nav">
   
-    <a href="/2015/05/15/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/04/26/自由者/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2015/05/27/选择/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">自由者</div>
+      <div class="article-nav-title">选择</div>
     </a>
   
 </nav>
